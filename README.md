@@ -1,34 +1,39 @@
-# 📡 Network Vulnerability Scanner (Python + Nmap)
+# 🚀 Network Vulnerability Scanner  
+### Python + Nmap Based Security Tool
 
-## 📌 Overview
-This project is a **basic network vulnerability scanner** built using Python. It uses **Nmap** to scan a target system and identifies open ports along with their associated services. Based on predefined rules, it classifies each port into **High, Medium, or Low risk levels**.
-
----
-
-## 🎯 Features
-- 🔍 Scans target system using Nmap (`-sV` for service detection)
-- 📊 Identifies open ports and running services
-- ⚠️ Classifies risk levels:
-  - High Risk
-  - Medium Risk
-  - Low Risk
-- 📄 Generates a structured scan report (`scan_report.txt`)
-- 🧠 Beginner-friendly and easy to understand
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Nmap](https://img.shields.io/badge/Nmap-Required-green)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 
 ---
 
-## 🛠️ Technologies Used
-- Python
-- Nmap
-- Subprocess module
+## 📌 Overview  
+This project is a **Network Vulnerability Scanner** developed using Python that integrates with **Nmap** to identify open ports and running services on a target system.  
+
+It further analyzes the scan results and classifies each port into **High, Medium, or Low risk levels**, helping users understand potential security threats.
 
 ---
 
-## ⚙️ Prerequisites
+## 🎯 Key Features  
+✔️ Automated port scanning using Nmap  
+✔️ Service detection (`-sV`)  
+✔️ Risk classification (High / Medium / Low)  
+✔️ Structured report generation (`scan_report.txt`)  
+✔️ Lightweight and beginner-friendly  
 
-Make sure the following are installed:
+---
 
-### 1. Python
-Check version:
+## 🛠️ Tech Stack  
+- **Language:** Python  
+- **Tool:** Nmap  
+- **Module Used:** subprocess  
+
+---
+
+## ⚙️ Prerequisites  
+
+Make sure you have the following installed:
+
+### 🔹 Python
 ```bash
 python --version
